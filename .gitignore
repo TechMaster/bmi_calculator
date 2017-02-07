@@ -54,10 +54,3 @@ jspm_packages
 
 # Yarn Integrity file
 .yarn-integrity
-
-
-.gitignore
-.idea/
-ReadMe.md
-package.json
-test/

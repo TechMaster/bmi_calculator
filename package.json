@@ -1,0 +1,29 @@
+{
+  "name": "basicjs",
+  "version": "1.0.0",
+  "description": "Demo basic JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -S"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechMaster/basicjs.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "ES6",
+    "Unit",
+    "Test"
+  ],
+  "author": "Trịnh Minh Cường",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TechMaster/basicjs/issues"
+  },
+  "homepage": "https://github.com/TechMaster/basicjs#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0"
+  }
+}
