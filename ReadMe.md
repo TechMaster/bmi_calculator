@@ -34,7 +34,14 @@ node demo_bmi.js
 ```
 ## Cần chú ý điểm gì
 
-Để kiểm thử xem error được ném ra trong một function không, cần gói hàm đó trong một anonymous function.
+### Luôn viết unit test kiểm thử hàm logic
+Tham khảo [Testing Node.js With Mocha and Chai](http://mherman.org/blog/2015/09/10/testing-node-js-with-mocha-and-chai/#.WJmsLxJ96EI)
+Một giờ tiếc rẻ không viết hàm kiểm thử sẽ trả giá bằng 20-100 giờ ngồi fix bug.
+
+![](http://flylib.com/books/4/223/1/html/2/images/0672327988/graphics/01fig02.gif)
+
+### Kiểm thử xem error được ném ra trong một function
+Cần gói hàm đó trong một anonymous function.
 Chỉ cần kiểm tra error message là được
 ```javascript
 (() => {
@@ -42,14 +49,14 @@ Chỉ cần kiểm tra error message là được
     }).should.throw('Error message');
 ```
 
-Cách để export constant là
+### export constant
 ```javascript
 const pound_to_kg = 0.45359237;
 exports.pound_to_kg = pound_to_kg;
 
 ```
 
-Cách để export hàm chuẩn ES 6
+### export hàm chuẩn ES 6
 ```javascript
 exports.function_name = (params) => {
   
