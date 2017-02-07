@@ -35,8 +35,11 @@ node demo_bmi.js
 
 ## Bài tập nâng cao
 1. Hãy trang trí giao diện nhập dữ liệu đẹp như thế này. Tham khảo module [readline-sync](https://github.com/anseki/readline-sync)
+
 ![demo](https://github.com/anseki/readline-sync/raw/master/screen_01.png)
+
 2. Viết hàm giải phương trình bậc 2, sau đó sử dụng module [plot.ly](https://plot.ly/) để vẽ đồ thị hàm bậc 2
+
 ![Đồ thị hàm bậc 2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/220px-Polynomialdeg2.svg.png)
 
 
