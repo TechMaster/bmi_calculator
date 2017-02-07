@@ -1,4 +1,5 @@
-# Đây là các ví dụ hướng dẫn học viên lớp Node.js bắt tay vào nghề
+# Ví dụ hướng dẫn học viên lớp Node.js bắt tay vào nghề
+Một số mã nguồn lớp thực tập sẽ được chia sẻ miễn phí [Full stack Node.js 2017](https://techmaster.vn/khoa-hoc/25544/full-stack-nodejs-2017)
 
 ## Học lập trình Node.js cần những gì?
 
@@ -15,6 +16,7 @@
 Rồi sau đó chào mừng bạn đến với thế giới của Node.js
 
 Tác giả: Trịnh Minh Cường (cuong@techmaster.vn)
+
 
 ## Ví dụ này demo hàm tính chỉ số BMI, Body Mass Index
 
