@@ -19,7 +19,14 @@ Tác giả: Trịnh Minh Cường (cuong@techmaster.vn)
 ## Chạy thử
 
 ```bash
+git clone https://github.com/TechMaster/basicjs.git
+cd basicjs
+npm install
+npm test
 node demo_bmi.js
 ```
+
+## Bài tập
+![demo](https://github.com/anseki/readline-sync/raw/master/screen_01.png)
 
 

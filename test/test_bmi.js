@@ -6,8 +6,6 @@ const bmi = require('../bmi/bmi');
 const chai = require('chai');
 chai.should();
 
-
-
 describe('Test BMI function', () => {
 
   it('it should throw when weight < 0', () => {
