@@ -1,6 +1,6 @@
 # Đây là các ví dụ hướng dẫn học viên lớp Node.js bắt tay vào nghề
 
-Học lập trình Node.js cần những gì?
+## Học lập trình Node.js cần những gì?
 
 1. Hiểu rõ cú pháp JavaScript (thực ra rất lộn xộn), do đó càng phải học kỹ qua ví dụ
 
@@ -15,3 +15,11 @@ Học lập trình Node.js cần những gì?
 Rồi sau đó chào mừng bạn đến với thế giới của Node.js
 
 Tác giả: Trịnh Minh Cường (cuong@techmaster.vn)
+
+## Chạy thử
+
+```bash
+node demo_bmi.js
+```
+
+

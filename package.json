@@ -24,6 +24,6 @@
   "homepage": "https://github.com/TechMaster/basicjs#readme",
   "dependencies": {
     "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0"
+    "readline-sync": "^1.4.6"
   }
 }
