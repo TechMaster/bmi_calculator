@@ -32,13 +32,35 @@ npm install
 npm test
 node demo_bmi.js
 ```
+## Cần chú ý điểm gì
 
+Để kiểm thử xem error được ném ra trong một function không, cần gói hàm đó trong một anonymous function.
+Chỉ cần kiểm tra error message là được
+```javascript
+(() => {
+      function_that_throw_error
+    }).should.throw('Error message');
+```
+
+Cách để export constant là
+```javascript
+const pound_to_kg = 0.45359237;
+exports.pound_to_kg = pound_to_kg;
+
+```
+
+Cách để export hàm chuẩn ES 6
+```javascript
+exports.function_name = (params) => {
+  
+}
+```
 ## Bài tập nâng cao
-1. Hãy trang trí giao diện nhập dữ liệu đẹp như thế này. Tham khảo module [readline-sync](https://github.com/anseki/readline-sync)
+- Bài 1: Hãy trang trí giao diện nhập dữ liệu đẹp như thế này. Tham khảo module [readline-sync](https://github.com/anseki/readline-sync)
 
 ![demo](https://github.com/anseki/readline-sync/raw/master/screen_01.png)
 
-2. Viết hàm giải phương trình bậc 2, sau đó sử dụng module [plot.ly](https://plot.ly/) để vẽ đồ thị hàm bậc 2
+- Bài 2: Viết hàm giải phương trình bậc 2, sau đó sử dụng module [plot.ly](https://plot.ly/) để vẽ đồ thị hàm bậc 2
 
 ![Đồ thị hàm bậc 2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Polynomialdeg2.svg/220px-Polynomialdeg2.svg.png)
 
