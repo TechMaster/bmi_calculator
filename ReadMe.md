@@ -21,7 +21,7 @@ Tác giả: Trịnh Minh Cường (cuong@techmaster.vn)
 ## Ví dụ này demo hàm tính chỉ số BMI, Body Mass Index
 
 1. Cách viết hàm trong JavaScript, sử dụng Arrow function chuẩn ES 6
-2. Sử dụng mocha, chai, should để viết unit test
+2. Sử dụng [mocha, chai, should](https://github.com/TechMaster/basicjs/blob/master/test/test_bmi.js) để viết unit test
 3. Muốn Unit test được thì function phải tách bạch ra, [separate concern](https://en.wikipedia.org/wiki/Separation_of_concerns)
 4. Chia tách ứng dụng thành các file nhỏ, export và require
 
@@ -41,6 +41,9 @@ Tham khảo [Testing Node.js With Mocha and Chai](http://mherman.org/blog/2015/0
 Một giờ tiếc rẻ không viết hàm kiểm thử sẽ trả giá bằng 20-100 giờ ngồi fix bug.
 
 ![](http://flylib.com/books/4/223/1/html/2/images/0672327988/graphics/01fig02.gif)
+
+Separate concern thể hiện ở chỗ hàm tính BMI hãy chỉ tính BMI từng viết console.log hay bất kỳ hàm nhập xuất giao diện, network vào.
+Chia nhỏ hàm ra, càng ít phụ thuộc càng tốt.
 
 ### Kiểm thử xem error được ném ra trong một function
 Cần gói hàm đó trong một anonymous function.
