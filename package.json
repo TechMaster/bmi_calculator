@@ -1,5 +1,5 @@
 {
-  "name": "basicjs",
+  "name": "bmi_calculator",
   "version": "1.0.0",
   "description": "Demo basic JavaScript",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TechMaster/basicjs.git"
+    "url": "git+https://github.com/TechMaster/bmi_calculator.git"
   },
   "keywords": [
     "JavaScript",
@@ -19,9 +19,9 @@
   "author": "Trịnh Minh Cường",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TechMaster/basicjs/issues"
+    "url": "https://github.com/TechMaster/bmi_calculator/issues"
   },
-  "homepage": "https://github.com/TechMaster/basicjs#readme",
+  "homepage": "https://github.com/TechMaster/bmi_calculator#readme",
   "dependencies": {
     "chai": "^3.5.0",
     "readline-sync": "^1.4.6"
